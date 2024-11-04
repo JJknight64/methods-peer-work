@@ -13,6 +13,11 @@
 
             jacob1FavNumber = 64;
             jacob2FavNumber = 256;
+
+            //start of "our" actual program
+
+            Console.WriteLine("Jacob1's favorite number is: " +  jacob1FavNumber);
+            Console.WriteLine("Jacob2's favorite number is: " + jacob2FavNumber);
         }
     }
 }
