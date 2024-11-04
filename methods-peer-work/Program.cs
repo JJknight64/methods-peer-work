@@ -12,6 +12,7 @@
             //initialize
 
             jacob1FavNumber = 64;
+            jacob2FavNumber = 256;
         }
     }
 }
