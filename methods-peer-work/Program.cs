@@ -29,8 +29,10 @@
             Console.WriteLine("Jacob1's favorite number is: " +  jacob1FavNumber);
             Console.WriteLine("Jacob2's favorite number is: " + jacob2FavNumber);
 
-            int sum = Add(jacob2FavNumber, jacob2FavNumber);
-            Console.WriteLine(sum);
+            int sum = Add(jacob1FavNumber, jacob2FavNumber);
+            Console.WriteLine("Added together, they make " + sum);
+            int difference = Subtract(jacob1FavNumber, jacob2FavNumber);
+            Console.WriteLine("Subtracted from one another, they make " + difference);
         }
     }
 }
