@@ -2,6 +2,10 @@
 {
     internal class Program
     {
+        static int Add(int a, int b)
+        {
+            return a + b;
+        }
         static void Main(string[] args)
         {
             // side note: i couldn't get a hold of my partner for this project, so i'll be working from two different clients on different computers. i'll provide screenshots of my progess as proof when i submit this to myCourses
@@ -17,8 +21,7 @@
             //jacob2's function
             int Subtract(int a, int b)
             {
-                int value = a - b;
-                return value;
+                return a - b;
             }
             
             //start of "our" actual program
