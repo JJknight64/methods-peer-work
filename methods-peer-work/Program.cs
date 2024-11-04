@@ -1,7 +1,20 @@
-﻿namespace methods_peer_work
+﻿/*
+ * Jacob Duryea, Jacob Duryea's second account
+ * IGME.201.01 - Interac Des & Alg Prob Sol III
+ * Due 10/13/24
+ * Completed 11/3/24
+*/
+
+namespace methods_peer_work
 {
     internal class Program
     {
+        /// <summary>
+        /// This function adds two whole number paramaters together and returns the difference as a whole number
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns> the difference of two whole numbers </returns>
         static int Add(int a, int b)
         {
             return a + b;
