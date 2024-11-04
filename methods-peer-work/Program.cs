@@ -14,6 +14,13 @@
             jacob1FavNumber = 64;
             jacob2FavNumber = 256;
 
+            //jacob2's function
+            int Subtract(int a, int b)
+            {
+                int value = a - b;
+                return value;
+            }
+            
             //start of "our" actual program
 
             Console.WriteLine("Jacob1's favorite number is: " +  jacob1FavNumber);
